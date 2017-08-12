@@ -1,0 +1,10 @@
+This is for Installing nginx and Varnish on Ubantu 16.4 Server with puppet.
+Details of the folders :
+1)manifests : nginx module  manifests folder
+2)templates : nginx module template folder
+3)profile : profile module manifests folder
+4)role : role module manifests folder
+5)varnish : varnish module manifests and template folder
+6)node : node spectif folder with manifests file.
+
+run puppet agent --test 
